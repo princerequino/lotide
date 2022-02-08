@@ -7,16 +7,15 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const tail = function(input){
+const tail = function(input) {
   let newAr = input.slice(1);
-  return newAr
+  return newAr;
 };
 
-// Test Case: Check the original array 
+// Test Case: Check the original array
 const words = ["Yo Yo"];
-const emptyArray = [];
-tail(words); 
-assertEqual(words.length, 3); 
+tail(words);
+assertEqual(words.length, 3);
 assertEqual(["Yo Yo"], tail(["Yo Yo"]));
 assertEqual(["Yo Yo", "Lighthouse", "Labs"], tail(["Yo Yo", "Lighthouse", "Labs"]));
 
