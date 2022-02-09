@@ -64,6 +64,6 @@ const assertArraysEqual = function(arr1, arr2) {
 // console.log(eqArrays(["1", "2", "3"], ["1", "2", 3]));
 
 
-//Test Code for assertArraysEqual
-// assertArraysEqual([1, 2, 3], [1, 2, 3]);
-// assertArraysEqual([1, 2, 3, 4], [1, 2, 3, 4]);
+Test Code for assertArraysEqual
+assertArraysEqual([1, 2, 3], [1, 2, 3]);
+assertArraysEqual([1, 2, 3, 4], [1, 2, 3, 4]);

@@ -6,3 +6,6 @@ for (let i = 2; i < args.length; i++) {
   pigLatin += jumbledWord + args[i].substring(0, 1) + "ay "
   };
   console.log(pigLatin.trim());
+
+  
+
