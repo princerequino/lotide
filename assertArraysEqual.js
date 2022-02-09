@@ -53,15 +53,17 @@ const assertArraysEqual = function(arr1, arr2) {
 
 
 
-// TEST CODE
+//Test Code for assertEqual
 // assertEqual("Lighthouse Labs", "Bootcamp");
 // assertEqual(1, 1);
 
-
+//Test Code for eqArrays
 // console.log(eqArrays([1, 2, 3], [1, 2, 3]));
 // console.log(eqArrays([1, 2, 3], [3, 2, 1]));
 // console.log(eqArrays(["1", "2", "3"], ["1", "2", "3"]));
 // console.log(eqArrays(["1", "2", "3"], ["1", "2", 3]));
 
-assertArraysEqual([1, 2, 3], [1, 2, 3]);
-assertArraysEqual([1, 2, 3, 4], [1, 2, 3, 4]);
+
+//Test Code for assertArraysEqual
+// assertArraysEqual([1, 2, 3], [1, 2, 3]);
+// assertArraysEqual([1, 2, 3, 4], [1, 2, 3, 4]);
