@@ -29,8 +29,8 @@ const eqObjects = function (object1, object2) {
   for (const key of keys1) {
     if (Array.isArray(object1[key]) && Array.isArray(object2[key])) {
       let arrayCheck = eqArrays(object1[key], object2[key]);
-      if (arrayCheck === false) {
-        //console.log(arrayCheck);
+      if (!arrayCheck) {
+        // if arrayCheck === false                  equivalent*  //console.log(arrayCheck);
         return false;
       }
     } else {
@@ -42,9 +42,9 @@ const eqObjects = function (object1, object2) {
   return true;
 };
 
-const cd = { c: [1, "2", null], d: "3" };
-const dc = { d: "3", c: [1, "2", null] };
-assertEqual(eqObjects(cd, dc), true);
+// const cd = { c: [1, "2", null], d: "3" };
+// const dc = { d: "3", c: [1, "2", null] };
+// assertEqual(eqObjects(cd, dc), true);
 
 // const ab = { a: "1", b: "2" };
 // const ba = { b: "2", a: "1" };
