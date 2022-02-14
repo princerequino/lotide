@@ -35,7 +35,7 @@ const countLetters = function(sentence) {
   return letterHolder
 };
 
-console.log(countLetters("LHL"));
+console.log(countLetters("123/9"));
  
 
 
