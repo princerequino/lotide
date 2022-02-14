@@ -11,6 +11,4 @@ const middle = function (arrayMid) {
 return middleValues;
   };
 
-
-
 module.exports = middle;
