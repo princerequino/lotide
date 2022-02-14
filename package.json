@@ -1,8 +1,9 @@
 {
   "name": "@princerequino/lotide",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Lotide by Prince",
   "main": "index.js",
+  "readme": "README.md",
   "directories": {
     "test": "test"
   },
